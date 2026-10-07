@@ -10,4 +10,6 @@ Install on an iPhone (has to be Safari)
 
 Updating later: ask for a rebuild. The version number shows at the bottom of the app and in sw.js (thrift-for-corina-vN); if you ever edit by hand, change both together so phones pick up the new copy.
 
+Map: Leaflet (BSD licence, LEAFLET-LICENSE.txt) with OpenStreetMap tiles; the streets need internet.
+
 Icon: white handbag on terracotta. The title font (Lobster, SIL Open Font License) is built into index.html; its licence file is in fonts/.
