@@ -1,4 +1,4 @@
-const CACHE = 'thrift-for-corina-v15';
+const CACHE = 'thrift-for-corina-v16';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-180.png?v=6', './icons/icon-192.png?v=6', './icons/icon-512.png?v=6'];
 
 self.addEventListener('install', e => {

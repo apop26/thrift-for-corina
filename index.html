@@ -155,6 +155,9 @@ details.card>summary{display:block;grid-template-columns:none;gap:0;list-style:n
 #map{position:absolute;inset:0;z-index:0;background:#e8e4dc;touch-action:none}
 .attrib{position:absolute;top:6px;left:50%;transform:translateX(-50%);z-index:900;font-size:11px;background:rgba(255,255,255,.85);color:#333;padding:1px 7px;border-radius:6px;pointer-events:none;white-space:nowrap}
 .findme,.zoom,.sheet{z-index:1000}
+.dirback{z-index:2000}
+.dirsheet{z-index:2001}
+.toast{z-index:2100}
 .badge.gonly{background:var(--chip);color:var(--muted)}
 header.top{position:relative}
 .home{position:absolute;top:12px;right:14px;width:44px;height:44px;border-radius:50%;align-items:center;justify-content:center;border:1px solid var(--line);background:var(--card);color:var(--accent);padding:0;cursor:pointer}
@@ -870,7 +873,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
  </section>
 </main>
 <nav class="tabs" id="tabs" style="display:none"><button data-t="list" class="on"><span>☰</span>List</button><button data-t="map"><span>📍</span>Map</button></nav>
-<div class="ver" id="ver">v15</div>
+<div class="ver" id="ver">v16</div>
 <div id="dirback" class="dirback"></div><div id="dirsheet" class="dirsheet" role="dialog" aria-label="Choose a maps app"></div>
 <div id="toast" class="toast" role="status"></div>
 <script>/* @preserve
